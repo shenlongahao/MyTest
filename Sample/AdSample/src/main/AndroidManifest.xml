@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qhad.adsample">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <!-- 广告SDK 所需权限 Start -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 广告SDK 所需权限 End -->
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.qhad.adsample.nativead.AdNativeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"></activity>
+        <activity
+            android:name="com.qhad.adsample.videoad.AdVideoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"></activity>
+
+        <!-- 广告SDK 所需组件 Start -->
+        <activity
+            android:name="com.ak.android.bridge.AKActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity android:name=".WebViewActivity" />
+        <!-- 广告SDK 媒体渠道（选填） -->
+        <meta-data
+            android:name="ak_channel"
+            android:value="test" />
+        <!-- 广告SDK 所需组件 End -->
+
+        <!--<receiver android:name=".MyReceiver4">-->
+        <!--<intent-filter android:priority="2147483646">-->
+        <!--<action android:name="android.intent.action.SCREEN_OFF"/>-->
+        <!--<action android:name="android.intent.action.SCREEN_ON"/>-->
+        <!--<action android:name="android.intent.action.USER_PRESENT"/>-->
+        <!--<action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>-->
+        <!--<action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+
+        <!--<receiver android:name=".MyReceiver3" android:exported="true">-->
+        <!--<intent-filter android:priority="2147483647">-->
+        <!--<action android:name="android.intent.action.SCREEN_OFF"/>-->
+        <!--<action android:name="android.intent.action.SCREEN_ON"/>-->
+        <!--<action android:name="android.intent.action.USER_PRESENT"/>-->
+        <!--<action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>-->
+        <!--<action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+    </application>
+
+</manifest>
