@@ -1,3 +1,3 @@
 # MyTest
 Just use to learn sourcetree
-i HAVE A BIG DREAM.
+I have a dream.
