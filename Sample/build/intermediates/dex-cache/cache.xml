@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_2f39f5fc47980028eca223af8856b3ee7d27bf21\classes.dex" />
+    </item>
+    <item
+        jar="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\libs\akad.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8cc2423fac54347f4f75cae09a56973c491871f4">
+        <dex dex="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\transforms\dex\debug\folders\1000\2\akad_e8f545417f525042bf80db859c8ba0c481ec7537\classes.dex" />
+    </item>
+    <item
+        jar="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b00284b36bb5647dfab13109ec568a9fafd808d8">
+        <dex dex="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0317c99aafec316eebfbe4be5fcba79c46848466\classes.dex" />
+    </item>
+    <item
+        jar="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_4ce9701cc7b765e71fc37541ff665307b648994d\classes.dex" />
+    </item>
+    <item
+        jar="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="10e935012dc50e94ebe0129af7c3478982dee88f">
+        <dex dex="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ef9666726785f8ea3392100ed9a231ea87676a41\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_ca2c3a95107a1d4c5a1951719ce72cb86c3771dd\classes.dex" />
+    </item>
+    <item
+        jar="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\libs\picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\unionadtest\AKAD_Android_3.8.3031_0302\Sample\AdSample\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_149ed72b447787049c65b5802877ce029a983ceb\classes.dex" />
+    </item>
+
+</items>

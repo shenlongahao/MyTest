@@ -1,0 +1,10 @@
+diff a/Sample/.gitignore b/Sample/.gitignore	(rejected hunks)
+@@ -0,0 +1,8 @@
++*.iml
++.gradle
++/local.properties
++/.idea/workspace.xml
++/.idea/libraries
++.DS_Store
++/build
++/captures

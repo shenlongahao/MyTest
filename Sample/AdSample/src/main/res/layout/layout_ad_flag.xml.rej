@@ -1,0 +1,13 @@
+diff a/Sample/AdSample/src/main/res/layout/layout_ad_flag.xml b/Sample/AdSample/src/main/res/layout/layout_ad_flag.xml	(rejected hunks)
+@@ -0,0 +1,11 @@
++<TextView xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="wrap_content"
++    android:layout_height="wrap_content"
++    android:layout_alignParentBottom="true"
++    android:background="#22000000"
++    android:paddingLeft="1dp"
++    android:paddingRight="1dp"
++    android:text="广告"
++    android:textColor="#ffffff"
++    android:textSize="10dp" />
